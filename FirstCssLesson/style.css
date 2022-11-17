@@ -1,0 +1,51 @@
+.a1:active {
+    background-color: black;
+    color: bisque;
+}
+
+.a1:visited {
+    color: bisque;
+}
+
+
+.a2:active {
+    background-color: brown;
+    color: green;
+}
+
+.a2:visited {
+    color: greenyellow;
+}
+
+
+
+.a3:active {
+    background-color: red;
+    color: wheat;
+}
+
+.a3:visited {
+    color: palevioletred;
+}
+
+.parag::first-letter {
+    font-size: 30px;
+}
+
+/* p:first-of-type {
+    font-size: 40px;
+} */
+
+::marker {
+    font-size: 30px;
+    color: brown;
+}
+
+/* p::first-line {
+    background-color: brown;
+} */
+
+input:in-range {
+    border: 2px solid yellow;
+}
+
